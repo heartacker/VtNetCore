@@ -128,6 +128,11 @@
 
             while (true)
             {
+                if(stream.AtEnd)
+                {
+                    return  null;
+                }
+
                 var next = stream.Read();
 
                 if (readingCommand || next == 0x07 || next == 0x9C) // BEL or ST

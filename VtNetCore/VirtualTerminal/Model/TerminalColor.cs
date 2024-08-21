@@ -456,35 +456,35 @@ namespace VtNetCore.VirtualTerminal.Model
                 switch (termColor)
                 {
                     case ETerminalColor.Black:
-                        Set(0, 0, 0);        // Black
+                        Set(12, 12, 12);        // Black
                         break;
 
                     case ETerminalColor.Red:
-                        Set(205, 0, 0);      // Red
+                        Set(197, 15, 31);      // Red
                         break;
 
                     case ETerminalColor.Green:
-                        Set(0, 205, 0);      // Green
+                        Set(19, 161, 14);      // Green
                         break;
 
                     case ETerminalColor.Yellow:
-                        Set(205, 205, 0);    // Yellow
+                        Set(193, 156, 0);    // Yellow
                         break;
 
                     case ETerminalColor.Blue:
-                        Set(0, 0, 205);      // Blue
+                        Set(0, 55, 218);      // Blue
                         break;
 
                     case ETerminalColor.Magenta:
-                        Set(205, 0, 205);    // Magenta
+                        Set(136, 23, 152);    // Magenta
                         break;
 
                     case ETerminalColor.Cyan:
-                        Set(0, 205, 205);    // Cyan
+                        Set(97, 214, 214);    // Cyan
                         break;
 
                     case ETerminalColor.White:
-                        Set(205, 205, 205);  // White
+                        Set(204, 204, 204);  // White
                         break;
                 }
             }

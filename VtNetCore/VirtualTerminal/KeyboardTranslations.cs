@@ -59,10 +59,10 @@
             // | F10    | CSI 21~ | CSI 24~ | CSI 21~   |
             // | F11    | CSI 23~ | CSI 23~ | CSI 23~   |
             // | F12    | CSI 24~ | CSI 24~ | CSI 24~   |
-            { "F1",  new KeyboardTranslation { Normal = "\u001b[11~", Shift = "\u001b[23~", Control = "\u001b[11~" } },
-            { "F2",  new KeyboardTranslation { Normal = "\u001b[12~", Shift = "\u001b[24~", Control = "\u001b[12~" } },
-            { "F3",  new KeyboardTranslation { Normal = "\u001b[13~", Shift = "\u001b[25~", Control = "\u001b[13~" } },
-            { "F4",  new KeyboardTranslation { Normal = "\u001b[14~", Shift = "\u001b[26~", Control = "\u001b[14~" } },
+            { "F1",  new KeyboardTranslation { Normal = "\u001bOP", Shift = "\u001b[23~", Control = "\u001b[11~" } },
+            { "F2",  new KeyboardTranslation { Normal = "\u001bOQ", Shift = "\u001b[24~", Control = "\u001b[12~" } },
+            { "F3",  new KeyboardTranslation { Normal = "\u001bOR", Shift = "\u001b[25~", Control = "\u001b[13~" } },
+            { "F4",  new KeyboardTranslation { Normal = "\u001bOS", Shift = "\u001b[26~", Control = "\u001b[14~" } },
             { "F5",  new KeyboardTranslation { Normal = "\u001b[15~", Shift = "\u001b[28~", Control = "\u001b[15~" } },
             { "F6",  new KeyboardTranslation { Normal = "\u001b[17~", Shift = "\u001b[29~", Control = "\u001b[17~" } },
             { "F7",  new KeyboardTranslation { Normal = "\u001b[18~", Shift = "\u001b[31~", Control = "\u001b[18~" } },
